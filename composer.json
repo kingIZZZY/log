@@ -27,12 +27,12 @@
     },
     "require": {
         "php": "^8.2",
-        "hyperf/config": "~3.1.0",
+        "hyperf/config": "3.2.x-dev",
         "monolog/monolog": "^3.1",
-        "hyperf/stringable": "~3.1.0",
-        "hyperf/contract": "~3.1.0",
-        "hyperf/collection": "~3.1.0",
-        "hypervel/support": "^0.1"
+        "hyperf/stringable": "3.2.x-dev",
+        "hyperf/contract": "3.2.x-dev",
+        "hyperf/collection": "3.2.x-dev",
+        "hypervel/support": "dev-hyperf3.2"
     },
     "config": {
         "sort-packages": true
@@ -44,5 +44,11 @@
         "branch-alias": {
             "dev-main": "0.1-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "github",
+            "url": "https://github.com/kingIZZZY/support"
+        }
+    ]
 }
